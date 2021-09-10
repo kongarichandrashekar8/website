@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Sidebar Menu with submenu  |  CodingNepal</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+
+        <header>
+          <div class="main-heading">GTCoding</div>
+        </header>
+      
+        <div class="desktop-nav">
+          <nav class="nav1">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li class="drop-down"><a href="#">Courses <i class="fas fa-caret-down"></i></a>
+                <ul>
+                  <li><a href="#">App Dev</a></li>
+                  <li><a href="#">Web Dev</a></li>
+                  <li><a href="#">Unity Game Dev</a></li>
+                </ul>
+              </li>
+              <li class="drop-down"><a href="#">Downloads <i class="fas fa-caret-down"></i></a>
+                <ul>
+                  <li><a href="#">Android</a></li>
+                  <li><a href="#">iOS</a></li>
+                  <li><a href="#">PS4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      
+        <div id="toggle-nav">+</div>
+      
+        <div class="mobile-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li class="m-drop-down"><a href="#">Courses <i class="fas fa-caret-down"></i></a>
+              <ul>
+                <li><a href="#">App Dev</a></li>
+                <li><a href="#">Web Dev</a></li>
+                <li><a href="#">Unity Game Dev</a></li>
+              </ul>
+            </li>
+            <li class="m-drop-down"><a href="#">Downloads <i class="fas fa-caret-down"></i></a>
+              <ul>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">PS4</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="s-layout">
+            <!-- Sidebar -->
+            <div class="s-layout__sidebar">
+              <a class="s-sidebar__trigger" href="#0">
+                 <i class="fa fa-bars"></i>
+              </a>
+            
+              <div class="s-sidebar__nav">
+                 <ul>
+                    <li>
+                       <a class="s-sidebar__nav-link" href="#0">
+                          <i></i><em>Home</em>
+                       </a>
+                    </li>
+                    <li>
+                       <a class="s-sidebar__nav-link" href="#0">
+                         <!--<i class="fa fa-user"></i>--><em>My Profile</em>
+                       </a>
+                    </li>
+                    <li>
+                       <a class="s-sidebar__nav-link" href="#0">
+                          <!--<i class="fa fa-camera"></i>--><em>Camera</em>
+                       </a>
+                    </li>
+                 </ul>
+                </div>
+            </div>
+            
+            <!-- Content -->
+            <main class="s-layout__content">
+              <h1>Full View, Please!</h1>
+            </main>
+            </div>
+      
+        <section>
+          Welcome to the Tutorial for Awesome Responsive Dropdown Menu using Vanilla JavaScript. Hope you like it. Please
+          like and SUBSCRIBE to GTCoding. Thank you.
+        </section>
+      
+        <script src="main.js"></script>
+      
+      </body>
+    
+    </html>
