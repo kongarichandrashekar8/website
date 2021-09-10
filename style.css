@@ -188,7 +188,8 @@
     background:#eee;
     border-radius:50%;
     transition: .4s;
-    cursor:pointer;
+    cursor:pointer;'
+     color:red;
  }
  
  .s-sidebar__trigger > i {
