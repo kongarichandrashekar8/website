@@ -177,7 +177,7 @@
  /* Sidebar */
  .s-sidebar__trigger {
     z-index: 2;
-    position: fixed;
+    
     top: 51px;
     left: 8px;
     width: 3.7em;
