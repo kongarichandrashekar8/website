@@ -289,7 +289,16 @@
     .s-sidebar__trigger:focus + .s-sidebar__nav {
         width: 15em;
     }
+    
+    
  }
+ #circle-shape-example { 
+    font-family: Open Sans, sans-serif; 
+    margin: 2rem; 
+    width: 80%;
+    left:15%;
+    padding-left:15%;
+  }
  
  @media (min-width: 86em) {
     .s-layout__content {
@@ -309,6 +318,9 @@
     .s-sidebar__nav ul {
        top: 2.9em;
     }
+    
+    
+    
  }
  
 
@@ -352,7 +364,20 @@
      .wrapper {
          height: auto;
      }
- 
+     #circle-shape-example { 
+        font-family: Open Sans, sans-serif; 
+        
+        width: 90%;
+        border: #557a55 solid;
+        
+        
+        left:-5%;
+        margin: 1rem; 
+    
+        left:2px;
+        padding-left:2px;
+        
+      }
      /* make a grid */
      .wrapper {
          display: flex;
@@ -660,7 +685,7 @@ p{
   }
 
 
-
+/*
   .-fx-image-gal {
 	display: flex;
 	flex-direction: column;
@@ -676,6 +701,7 @@ p{
 	padding: 10px;
 	overflow: hidden;
     border: #557a55 solid;
+    
 }
 
 .-fx-gal-item a {
@@ -694,6 +720,7 @@ p{
 	filter: grayscale(100%);
 	transform: scale(1.1);
 	transition: all 0.5s ease;
+    
 }
 
 .-fx-gal-image-thumb:hover img {
@@ -718,3 +745,20 @@ p{
 		width: 33.33%;
 	}
 }
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
